@@ -1,0 +1,31 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "tripDuration": "11 Countries, 25 days",
+      "name": "European Quest",
+      "rating": 2,
+      "price": 2.877,
+      "previousPrice": 3.285,
+      "photo": "https://picsum.photos/id/100/400/300"
+    },
+    {
+      "id": 2,
+      "tripDuration": "2 Countries, 15 days",
+      "name": "Simply Italy",
+      "rating": 4.4,
+      "price": 1.832,
+      "previousPrice": 2.155,
+      "photo": "https://picsum.photos/id/1000/400/300"
+    },
+    {
+      "id": 3,
+      "tripDuration": "1 Countries, 10 days",
+      "name": "Italian Espresso",
+      "rating": 4.5,
+      "price": 1.245,
+      "previousPrice": 1.465,
+      "photo": "https://picsum.photos/id/1001/400/300"
+    }
+  ]
+}

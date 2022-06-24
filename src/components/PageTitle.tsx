@@ -1,10 +1,7 @@
-import { PageTitleWrapper } from "./Components.styled";
 interface IProps {
   text: string;
 }
 
-const PageTitle = ({ text }: IProps) => (
-  <PageTitleWrapper>{text}</PageTitleWrapper>
-);
+const PageTitle = ({ text }: IProps) => <h3>{text}</h3>;
 
 export default PageTitle;
