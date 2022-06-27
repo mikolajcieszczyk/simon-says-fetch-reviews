@@ -7,7 +7,7 @@ import {
   PriceWrapper,
 } from "./Components.styled";
 
-interface IProps {
+export interface IFetchedItem {
   id?: number;
   tripDuration: string;
   name: string;
@@ -17,15 +17,14 @@ interface IProps {
   photo: string;
 }
 
-const TripPreview = ({
-  id,
+export const TripPreview = ({
   tripDuration,
   name,
   rating,
   price,
   previousPrice,
   photo,
-}: IProps) => {
+}: IFetchedItem) => {
   return (
     <TripPreviewWrapper>
       <img src={photo} alt="" />
@@ -46,5 +45,3 @@ const TripPreview = ({
     </TripPreviewWrapper>
   );
 };
-
-export default TripPreview;
